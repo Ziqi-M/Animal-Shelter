@@ -1,0 +1,18 @@
+html, body {
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+.skiplink {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    transform: translateY(-100%);
+}
+
+.skiplink:focus {
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    transform: translateY(0%);
+}

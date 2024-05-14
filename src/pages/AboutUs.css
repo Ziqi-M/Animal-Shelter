@@ -1,0 +1,79 @@
+.about__hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/about-hero.png");
+    height: 44rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.about__hero--content {
+    text-align: center;
+    position: absolute;
+    max-width: 880px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #eee;
+}
+
+.about__hero--title {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.2;
+}
+
+.main__page {
+    max-width: 1200px;
+    min-width: 360px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.about__panel {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.about__part {
+    padding: 0.5rem 0;
+}
+
+.about__part--title {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 2rem 0 0 2rem;
+    color: #f2a80c;
+}
+
+.about__part--content {
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+}
+
+.about__founder {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.about__founder--title {
+    font-weight: bold;
+    color: #f2a80c;
+}
+
+.about__founder--name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 3rem;
+    color: #f2a80c;
+}
